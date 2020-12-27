@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_friend"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:textSize="16sp"
+        android:textColor="@color/colorBlack"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/agree"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="同意"
+            android:textColor="@color/colorAccent"
+            android:textAlignment="center"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/noagree"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="拒绝"
+            android:textColor="@color/colorRed"
+            android:textAlignment="center"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/delfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/delete"/>
+    </LinearLayout>
+
+</LinearLayout>
